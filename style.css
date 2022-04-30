@@ -1,0 +1,35 @@
+body {
+    max-height: 100vh;
+    padding-top: 5rem;
+    font-family: 'Roboto', sans-serif;
+    background: #316CA0;
+}
+
+.button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 1rem 2rem;
+    margin-bottom: 5rem;
+    font-size: 1rem;
+    color: #fff;
+    background: #2C2C2E;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.message-ball {
+    font-size: 2rem;
+    line-height: 300px;
+    text-align: center;
+}
+
+.circle {
+    transition-property: width, height, margin-left, margin-top;
+    transition-duration: 2s;
+    position: fixed;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: #0DBA62;
+    border-radius: 50%;
+}
